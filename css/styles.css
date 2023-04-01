@@ -197,6 +197,7 @@ footer .contact {
   --background-color-secondary: #2f303a;
   --background-color-third: #f5f4fa;
   --header-border-color: #cecece;
+  --picture-border-color: #eeeeee;
 }
 
 .container {
@@ -285,5 +286,5 @@ figure {
 }
 
 .filter-list-item figure {
-  border: 1px solid #eeeeee;
+  border: 1px solid var(--picture-border-color);
 }
