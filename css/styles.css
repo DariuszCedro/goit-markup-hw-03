@@ -117,6 +117,7 @@ body {
   font-weight: 700;
   line-height: 1.9;
   cursor: pointer;
+  padding: 10px 41px 10px 42px;
 }
 
 .footer-address {
@@ -148,6 +149,7 @@ footer .contact {
   display: flex;
   justify-content: center;
   column-gap: 10px;
+  margin-bottom: 50px;
 }
 .filter-list-choise {
   background-color: var(--background-color-third);
@@ -159,7 +161,7 @@ footer .contact {
   line-height: 1.626;
   cursor: pointer;
   border-radius: 4px;
-  padding: 6px 24px;
+  padding: 6px 22px;
 }
 
 .filter-list-choise:hover,
@@ -267,6 +269,9 @@ figure {
   margin: 0;
   padding: 0;
   background-color: var(--background-color-primary);
+}
+
+.list-team figure {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
@@ -289,6 +294,12 @@ figure {
   margin-bottom: 4px;
 }
 
-.filter-list-item figure {
-  border: 1px solid var(--picture-border-color);
+figcaption.filter-figcaption {
+  border-right: 1px solid var(--picture-border-color);
+  border-bottom: 1px solid var(--picture-border-color);
+  border-left: 1px solid var(--picture-border-color);
+}
+
+.filter-list-item img {
+  display: block;
 }
