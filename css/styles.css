@@ -149,7 +149,6 @@ footer .contact {
   display: flex;
   justify-content: center;
   column-gap: 10px;
-  margin-bottom: 50px;
 }
 .filter-list-choise {
   background-color: var(--background-color-third);
@@ -302,4 +301,8 @@ figcaption.filter-figcaption {
 
 .filter-list-item img {
   display: block;
+}
+
+.container.filter-container {
+  margin-bottom: 50px;
 }
